@@ -1,0 +1,26 @@
+# Unreal Engine generated files
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+.vs/
+.vscode/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+
+# Plugin-specific files
+Plugin/*/Binaries/
+Plugin/*/Intermediate/
+
+
+# Other files
+*.log
+*.idea
+*.user
+*.DS_Store
