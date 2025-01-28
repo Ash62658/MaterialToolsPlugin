@@ -1,32 +1,24 @@
-# Prerequisites
-*.d
+# Unreal Engine generated files
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+.vs/
+.vscode/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Plugin-specific files
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# Other files
+*.log
+*.idea
+*.user
+*.DS_Store
